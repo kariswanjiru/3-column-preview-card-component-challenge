@@ -1,0 +1,84 @@
+.card{
+    width: 274px;
+    height: 482.04px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+            #sedans{
+                width: 274px;
+                height: 482.04px;
+                background-color: #E28525;
+
+                .sedans-info{
+                    background: rgba(255, 251, 251, 0.97);
+                    color:#E28525; 
+                }
+                .sedans-info:hover{
+                    background: #E28525 ;
+                    color:rgba(255, 251, 251, 0.97);
+                }
+            }
+            #suvs{
+                background-color: #016972;
+                width: 274px;
+                height: 482.04px;
+
+                .suvs-info{
+                    background: rgba(255, 251, 251, 0.97);
+                    color:#016972, 100%; 
+                }
+                .suvs-info:hover{
+                    background: #016972, 100% ;
+                    color:rgba(255, 251, 251, 0.97);
+                }
+            }
+            #luxury{
+                background-color: #00403F;
+                width: 274px;
+                height: 482.04px;
+
+                button{
+                    .luxury-info{
+                        background: rgba(255, 251, 251, 0.97);
+                        color:#00403F, 100%; 
+                    }
+                    .luxury-info:hover{
+                        background: #00403F, 100% ;
+                        color:rgba(255, 251, 251, 0.97);
+                    }
+                }
+                
+            }
+
+            img{
+                width: 64px;
+                height: 40px;
+            }
+
+            .model{
+                font-weight:700;
+                font-family: 'Big shoulders Display',sans-serif;
+            }
+
+            p{
+                font-weight:400;
+                font-family: 'Lexend Deca',sans-serif;
+            }
+
+            button{
+                font-weight:400;
+                font-family: Lexend Deca;
+                width: 157px;
+                height: 43px;
+                border-radius: 30px;
+                transition-duration: 0.4s;
+                align-self: flex-end;
+            }
+      
+}
+
+
+
+
+

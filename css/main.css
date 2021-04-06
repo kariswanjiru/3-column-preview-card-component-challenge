@@ -1,0 +1,139 @@
+.card {
+  width: 274px;
+  height: 482.04px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card #sedans {
+  width: 274px;
+  height: 482.04px;
+  background-color: #E28525;
+}
+
+.card #sedans .sedans-info {
+  background: rgba(255, 251, 251, 0.97);
+  color: #E28525;
+}
+
+.card #sedans .sedans-info:hover {
+  background: #E28525;
+  color: rgba(255, 251, 251, 0.97);
+}
+
+.card #suvs {
+  background-color: #016972;
+  width: 274px;
+  height: 482.04px;
+}
+
+.card #suvs .suvs-info {
+  background: rgba(255, 251, 251, 0.97);
+  color: #016972, 100%;
+}
+
+.card #suvs .suvs-info:hover {
+  background: #016972, 100%;
+  color: rgba(255, 251, 251, 0.97);
+}
+
+.card #luxury {
+  background-color: #00403F;
+  width: 274px;
+  height: 482.04px;
+}
+
+.card #luxury button .luxury-info {
+  background: rgba(255, 251, 251, 0.97);
+  color: #00403F, 100%;
+}
+
+.card #luxury button .luxury-info:hover {
+  background: #00403F, 100%;
+  color: rgba(255, 251, 251, 0.97);
+}
+
+.card img {
+  width: 64px;
+  height: 40px;
+}
+
+.card .model {
+  font-weight: 700;
+  font-family: 'Big shoulders Display',sans-serif;
+}
+
+.card p {
+  font-weight: 400;
+  font-family: 'Lexend Deca',sans-serif;
+}
+
+.card button {
+  font-weight: 400;
+  font-family: Lexend Deca;
+  width: 157px;
+  height: 43px;
+  border-radius: 30px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #F0F0F0;
+  font-size: 15px;
+  display: -ms-grid;
+  display: grid;
+  color: black;
+}
+
+.container-card {
+  width: 1180px;
+  height: 766px;
+  left: 130px;
+  top: 129px;
+  color: white;
+  background: whitesmoke;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

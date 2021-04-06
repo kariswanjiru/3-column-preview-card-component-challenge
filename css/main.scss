@@ -1,0 +1,33 @@
+@import 'card','mobile';
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F0F0F0;
+    font-size:15px;
+    display: grid;
+    color: black;
+}
+.container-card{
+
+    width: 1180px;
+    height: 766px;
+    left: 130px;
+    top: 129px;
+    color: white;
+    background: whitesmoke;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution { font-size: 11px; text-align: center; 
+
+    a { color: hsl(228, 45%, 44%); }
+    align-self: end;
+}
+    
+
